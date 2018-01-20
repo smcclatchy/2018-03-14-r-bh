@@ -14,7 +14,7 @@ instructor: ["TBD"]
 helper: ["TBD"]
 email: ["susan.mcclatchy@jax.org"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
-eventbrite:  42370846342         # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+eventbrite:  42370846342        
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
@@ -46,10 +46,6 @@ eventbrite:  42370846342         # optional: alphanumeric key for Eventbrite reg
 </iframe>
 {% endif %}
 
-<h4>This is the workshop template. Delete these lines and use it to customize your own website.
-If you are running a self-organized workshop or have not put in a workshop request yet, please also fill in 
-<a href="{{site.amy_site}}/submit">this workshop request form</a> to let us know about your workshop
-and our administrator may contact you if we need any extra information.</h4>
 
 <h2 id="general">General Information</h2>
 
@@ -98,7 +94,7 @@ and our administrator may contact you if we need any extra information.</h4>
   or
   <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.
   JAX employees can locate the bioinformatics training room in building 1, unit 5 on
-  this <"https://myjax-p.jax.org/Facilities/engineering/GeneralMap/rl_locator_map.pdf">campus map</a>.
+  this <a href="https://myjax-p.jax.org/Facilities/engineering/GeneralMap/rl_locator_map.pdf">campus map</a>.
 </p>
 {% endif %}
 
