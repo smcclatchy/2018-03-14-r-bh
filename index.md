@@ -2,7 +2,7 @@
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: ""    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
 venue: "The Jackson Laboratory"
-address: "Bioinformatics Training Room, 600 Main Street, Bar Harbor, Maine"
+address: "Bioinformatics Training Room 1540, 600 Main Street, Bar Harbor, Maine"
 country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: "44.365994,-68.196389"
@@ -14,7 +14,7 @@ instructor: ["TBD"]
 helper: ["TBD"]
 email: ["susan.mcclatchy@jax.org"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
-eventbrite:  42370846342        
+eventbrite:  42370846342
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
@@ -41,7 +41,7 @@ eventbrite:  42370846342
   src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
   frameborder="0"
   width="100%"
-  height="248px"
+  height="268px"
   scrolling="auto">
 </iframe>
 {% endif %}
@@ -183,44 +183,45 @@ eventbrite:  42370846342
 <hr/>
 
 {% comment %}
-  SCHEDULE
+<h2 id="schedule">Schedule</h2>
 
 <div class="row">
 <div class="col-md-6">
 <h3>Wednesday, March 14</h3>
 <table class="table table-striped">
-<tr> <td>09:00</td>  <td><a href="{{site.swc_pages}}/python-novice-gapminder/">Workshop Overview</a></td> </tr>
-<tr> <td>09:15</td>  <td><a href="{{site.swc_pages}}/python-novice-gapminder/01-run-quit/">Running and Quitting</a></td> </tr>
-<tr> <td>09:45</td>  <td><a href="{{site.swc_pages}}/python-novice-gapminder/02-variables/">Variables and Assignment</a></td> </tr>
-<tr> <td>10:15</td>  <td><a href="{{site.swc_pages}}/python-novice-gapminder/03-types-conversion/">Data Types and Type Conversion</a></td> </tr>
+<tr> <td>09:00</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/">Workshop Overview</a></td> </tr>
+<tr> <td>09:15</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/01-rstudio-intro/">Introduction to R and RStudio</a></td> </tr>
+<tr> <td>10:15</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/02-project-intro/">Project Management With RStudio</a></td> </tr>
+<tr> <td>10:30</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/03-seeking-help/">Seeking Help</a></td> </tr>
 <tr> <td>10:45</td>  <td>Coffee</td> </tr>
-<tr> <td>11:00</td>  <td><a href="{{site.swc_pages}}/python-novice-gapminder/04-built-in/">Built-in Functions and Help</a></td> </tr>
-<tr> <td>11:30</td>  <td><a href="{{site.swc_pages}}/python-novice-gapminder/06-libraries/">Libraries</a></td> </tr>
+<tr> <td>11:00</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/04-data-structures-part1/">Data Structures</a></td> </tr>
 <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-<tr> <td>13:00</td>  <td><a href="{{site.swc_pages}}/python-novice-gapminder/07-reading-tabular/">Reading Tabular Data into DataFrames</a></td> </tr>
-<tr> <td>13:45</td>  <td><a href="{{site.swc_pages}}/python-novice-gapminder/08-data-frames/">Pandas DataFrames</a></td> </tr>
+<tr> <td>13:00</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/05-data-structures-part2/">Exploring Data Frames</a></td> </tr>
+<tr> <td>13:30</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/06-data-subsetting/">Subsetting Data</a></td> </tr>
 <tr> <td>14:30</td>  <td>Coffee</td> </tr>
-<tr> <td>14:45</td>  <td><a href="{{site.swc_pages}}/python-novice-gapminder/09-plotting/">Plotting</a></td> </tr>
-<tr> <td>15:30</td>  <td><a href="{{site.swc_pages}}/python-novice-gapminder/11-lists/">Lists</a></td> </tr>
+<tr> <td>14:45</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/06-data-subsetting/">Subsetting Data (continued)</a> </td> </tr>
+<tr> <td>15:15</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/07-control-flow/">Control Flow</a></td> </tr>
 <tr> <td>16:15</td>  <td>Wrap-up</td> </tr>
 </table>
 </div>
 <div class="col-md-6">
 <h3>Thursday, March 15</h3>
 <table class="table table-striped">
-<tr> <td>09:00</td>  <td><a href="{{site.swc_pages}}/python-novice-gapminder/12-for-loops/">For Loops</a></td> </tr>
-<tr> <td>10:00</td>  <td><a href="{{site.swc_pages}}/python-novice-gapminder/13-looping-data-sets/">Looping Over Data Sets</a> </td> </tr>
+<tr> <td>09:00</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/08-plot-ggplot2/">Creating Publication-Quality Graphics</a></td> </tr>
 <tr> <td>10:45</td>  <td>Coffee</td> </tr>
-<tr> <td>11:00</td>  <td><a href="{{site.swc_pages}}/python-novice-gapminder/14-writing-functions/">Writing Functions</a></td> </tr>
+<tr> <td>11:00</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/09-vectorization/">Vectorization</a></td> </tr>
+<tr> <td>11:15</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/10-functions/">Functions Explained</a></td> </tr>
 <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-<tr> <td>13:00</td>  <td><a href="{{site.swc_pages}}/python-novice-gapminder/15-scope/">Variable Scope</a></td> </tr>
-<tr> <td>13:30</td>  <td><a href="{{site.swc_pages}}/python-novice-gapminder/17-conditionals/">Conditionals</a></td> </tr>
+<tr> <td>13:00</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/11-writing-data/">Writing Data</a></td> </tr>
+<tr> <td>13:30</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/13-dplyr/">Dataframe Manipulation with dplyr</a></td> </tr>
 <tr> <td>14:30</td>  <td>Coffee</td> </tr>
-<tr> <td>14:45</td>  <td><a href="{{site.swc_pages}}/python-novice-gapminder/18-style/">Programming Style</a></td> </tr>
+<tr> <td>14:45</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/14-tidyr/">Dataframe Manipulation with tidyr</a></td> </tr>
+<tr> <td>15:45</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/15-knitr-markdown/">Producing Reports With knitr</a></td> </tr>
 <tr> <td>16:15</td>  <td>Wrap-up</td> </tr>
 </table>
 </div>
 </div>
+
   Collaborative Notes
 
   If you want to use an Etherpad, go to
