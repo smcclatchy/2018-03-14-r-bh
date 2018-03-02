@@ -10,10 +10,10 @@ humandate: "Mar 14-15, 2018"    # human-readable dates for the workshop (e.g., "
 humantime: "9:00 am - 4:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2018-03-14     # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2018-03-15        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["TBD"]
-helper: ["TBD"]
+instructor: ["Yuka Takemon", "Georgi Kolishovski", "Narayanan Raghupathy"]
+helper: ["Sue McClatchy"]
 email: ["susan.mcclatchy@jax.org"]
-collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
+collaborative_notes:  https://public.etherpad-mozilla.org/p/2018-03-14-r-bh
 eventbrite:  42370846342
 ---
 
