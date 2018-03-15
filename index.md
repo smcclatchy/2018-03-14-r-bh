@@ -6,7 +6,7 @@ address: "Bioinformatics Training Room 1540, 600 Main Street, Bar Harbor, Maine"
 country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: "44.365994,-68.196389"
-humandate: "Mar 14-15, 2018"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humandate: "Mar 15-16, 2018"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:00 am - 4:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2018-03-14     # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2018-03-15        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
@@ -187,36 +187,36 @@ eventbrite:  42370846342
 
 <div class="row">
 <div class="col-md-6">
-<h3>Wednesday, March 14</h3>
+<h3>Thursday, March 15</h3>
 <table class="table table-striped">
 <tr> <td>09:00</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/">Workshop Overview</a></td> </tr>
 <tr> <td>09:15</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/01-rstudio-intro/">Introduction to R and RStudio</a></td> </tr>
 <tr> <td>10:15</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/02-project-intro/">Project Management With RStudio</a></td> </tr>
 <tr> <td>10:30</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/03-seeking-help/">Seeking Help</a></td> </tr>
+<tr> <td>10:35</td>  <td><a href="http://www.datacarpentry.org/shell-ecology/01-filedir.html">Understanding the File System</a></td> </tr>
 <tr> <td>10:45</td>  <td>Coffee</td> </tr>
-<tr> <td>11:00</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/04-data-structures-part1/">Data Structures</a></td> </tr>
+<tr> <td>11:00</td>  <td><a href="https://swcarpentry.github.io/r-novice-gapminder/15-knitr-markdown/">Producing Reports With knitr</a></td> </tr>
 <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-<tr> <td>13:00</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/05-data-structures-part2/">Exploring Data Frames</a></td> </tr>
-<tr> <td>13:30</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/06-data-subsetting/">Subsetting Data</a></td> </tr>
+<tr> <td>13:00</td>  <td><a href="https://swcarpentry.github.io/r-novice-gapminder/07-control-flow/">Control Flow</a></td> </tr>
 <tr> <td>14:30</td>  <td>Coffee</td> </tr>
-<tr> <td>14:45</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/06-data-subsetting/">Subsetting Data (continued)</a> </td> </tr>
-<tr> <td>15:15</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/07-control-flow/">Control Flow</a></td> </tr>
+<tr> <td>14:45</td>  <td><a href="https://swcarpentry.github.io/r-novice-gapminder/08-plot-ggplot2/">Creating Publication-Quality Graphics</a> </td> </tr>
 <tr> <td>16:15</td>  <td>Wrap-up</td> </tr>
 </table>
 </div>
 <div class="col-md-6">
-<h3>Thursday, March 15</h3>
+<h3>Friday, March 16</h3>
 <table class="table table-striped">
-<tr> <td>09:00</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/08-plot-ggplot2/">Creating Publication-Quality Graphics</a></td> </tr>
+<tr> <td>09:00</td>  <td><a href="https://swcarpentry.github.io/r-novice-gapminder/09-vectorization/">Vectorization</a></td> </tr>
+<tr> <td>09:45</td>  <td><a href="https://swcarpentry.github.io/r-novice-gapminder/10-functions/">Functions Explained</a></td> </tr>
 <tr> <td>10:45</td>  <td>Coffee</td> </tr>
-<tr> <td>11:00</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/09-vectorization/">Vectorization</a></td> </tr>
-<tr> <td>11:15</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/10-functions/">Functions Explained</a></td> </tr>
+<tr> <td>11:00</td>  <td><a href="https://swcarpentry.github.io/r-novice-gapminder/13-dplyr/">Dataframe Manipulation with dplyr</a></td> </tr>
+
 <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-<tr> <td>13:00</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/11-writing-data/">Writing Data</a></td> </tr>
-<tr> <td>13:30</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/13-dplyr/">Dataframe Manipulation with dplyr</a></td> </tr>
+<tr> <td>13:00</td>  <td><a href="https://swcarpentry.github.io/r-novice-gapminder/13-dplyr/">Dataframe Manipulation with dplyr (continued)</a></td> </tr>
+<tr> <td>13:30</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/14-tidyr/">Dataframe Manipulation with tidyr</a></td> </tr>
 <tr> <td>14:30</td>  <td>Coffee</td> </tr>
-<tr> <td>14:45</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/14-tidyr/">Dataframe Manipulation with tidyr</a></td> </tr>
-<tr> <td>15:45</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/15-knitr-markdown/">Producing Reports With knitr</a></td> </tr>
+<tr> <td>14:45</td>  <td><a href="">Ggplot with knitr</a></td> </tr>
+<tr> <td>15:45</td>  <td><a href="https://swcarpentry.github.io/r-novice-gapminder/11-writing-data/">Writing Data</a></td> </tr>
 <tr> <td>16:15</td>  <td>Wrap-up</td> </tr>
 </table>
 </div>
